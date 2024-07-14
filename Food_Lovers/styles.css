@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+/*  Header Styling  */
+
+header {
+    background-image: url('./images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+h1 {
+    font-size: 5rem;
+margin-bottom: 20px;
+}
+
+.content {
+    text-align: center;
+    width: 50%;
+}
+
+.content p  {
+    font-size: 1.5rem;
+}
+
+
+.content #food_input {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 20px;    
+    text-align: center; 
+
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content label {
+align-self:self-start;
+margin-left: 10%;
+margin-bottom: 0.5%;
+font-weight: 900;
+}
+
+
+
+#submit{
+    width: 25%;
+    height: 5vh;
+    background-color: #03AAA6 ;
+    color: white;
+    border-radius: 15px;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* Main CSS */
+
+
+.main-container{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.main-container .item {
+overflow: hidden;
+    flex-basis: 25%;
+}
+
+.main-container .item img{
+    max-width: 90%;
+    max-height: 60%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+header{
+    overflow: scroll;
+}
+
+
+.main-container{
+    flex-direction: column;
+}
+
+
+.main-container .item {
+
+    margin-left: 10%;
+    }
+}
