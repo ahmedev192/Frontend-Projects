@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+
+    background-image: url('./beach.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.logo img{
+float: left;
+width: 150px;
+height: auto;
+margin:5px
+}
+
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+.title{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    color: #fff;
+
+}
+
+.main{
+    max-width: 90%;
+    margin: auto;
+}
