@@ -1,0 +1,204 @@
+.custom-navbar {
+    background-color: transparent;
+}
+
+header {
+    background-image: url('./images/barber_7.jpg');
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+
+}
+
+
+.navbar .nav-link.active {
+    color: #AE9768;
+    font-weight: 500;
+    border-top: #AE9768 3px solid;
+}
+
+
+.custom-ul-containter {
+    margin-right: 19%;
+}
+
+
+
+.custom-ul .nav-item {
+    margin-right: 15px;
+    /* Adjust the value as needed */
+}
+
+.custom-ul .nav-item:last-child {
+    margin-right: 0;
+    /* Ensure the last item doesn't have extra margin */
+}
+
+.brand-img {
+    margin-left: 280%;
+    height: 60px;
+}
+
+.header-content {
+    color: #ffffff;
+}
+
+
+
+.features-container{
+    margin-top: 50px;
+}
+
+.row h6{
+    color: #ae9768;
+}
+
+
+.who-we-are {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  .who-we-are h1 {
+    font-weight: bold;
+    color: #a68d5d;
+  }
+  .who-we-are p {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  .features {
+    margin-top: 2rem;
+  }
+  .feature-item {
+    margin-bottom: 2rem;
+  }
+  .feature-item h3 {
+    color: #a68d5d;
+  }
+  .feature-item p {
+    color: #6c757d;
+  }
+
+
+  .slider-container{
+    background-color: #f8f8f8;
+    margin: 30px 0px
+  }
+
+
+
+  .features-h2{
+    color: #ae9768;
+  }
+
+.features-p{
+    color: #888;
+}
+
+
+#icon-grid h5{
+    color: #ae9768;
+}
+
+
+
+
+.contact-info {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  .contact-info h3 {
+    color: #a68d5d;
+  }
+  .contact-info p {
+    font-size: 1.1rem;
+    color: #6c757d;
+  }
+  .contact-details {
+    list-style: none;
+    padding: 0;
+  }
+  .contact-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .contact-details li i {
+    font-size: 1.5rem;
+    color: #a68d5d;
+    margin-right: 1rem;
+  }
+  .contact-details li span {
+    color: #6c757d;
+  }
+
+  .custom-contact{
+    background-color: #f8f8f8;
+  }
+
+
+  .footer {
+    color: #fff;
+    /* padding: 40px 0; */
+}
+.footer .about-us, .footer .gallery, .footer .opening-hours, .footer .contact-details {
+    margin-bottom: 20px;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #fff;
+}
+.footer .social-icons a:hover {
+    color: #ddd;
+}
+
+.footer p , .footer li , .footer a {
+    color: #969696;
+}
+
+.footer-1{
+    padding: 40px;
+    background-color: #403d38;
+
+}
+
+.footer-2{
+    background-color: #353330;
+    padding: 40px;
+    
+}
+
+@media (max-width: 999px) {
+    .custom-navbar {
+        background-color: #5D5851;
+    }
+}
+
+
+@media (max-width: 750px) {
+    header {
+        height: 63vh;
+    }
+ 
+}
+
+@media (max-width: 1600px) {
+    .brand-img {
+        margin-left: 30%;
+    }
+}
